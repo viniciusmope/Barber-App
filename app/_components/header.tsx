@@ -10,8 +10,7 @@ import SideMenu from "./side-menu";
 const Header = () => {
   return (
     <Card>
-      <CardContent className="p-5 justify-between items-center flex flex-row">
-        <Image src="/logo1.png" alt="FSW Barber" height={18} width={120} />
+      <CardContent className="p-5 flex items-center justify-end">
         <Sheet>
           <SheetTrigger asChild>
             <Button variant="outline" size="icon">
